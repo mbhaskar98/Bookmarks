@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 </head>
-<body style="background-color: black;">
-    <form onsubmit="submitForm(); return false;">
-        <label for="userInput">Enter Something:</label>
+<body style="background-color: black;" onload="submitForm();">
+    <form onsubmit="submitForm();"> 
         <input type="text" id="userInput" name="userInput" required>
         <button type="submit">Submit</button>
     </form>
