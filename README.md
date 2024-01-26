@@ -3,9 +3,17 @@
 
 Currently there is no native way to group tabs in Firefox like Chrome and Safari. There are some 3rd party extensions for Firefox, but those might have bugs or raise privacy concerns [Mozilla Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1509350). 
 
-This is an alternate way to group tabs. It is a simple web page that changes the page title based on inputs. Load it, set the group name following all tabs that belong to that group.
 
 
+## Usage
+
+This is an alternate way (hack) to group tabs.
+```bash
+1. Load https://mbhaskar98.github.io
+2. Set the name of the group in the input field and submit.
+3. Open all the relative tabs after this tab.
+```
+    
 ## Demo
 
 Insert gif or link to demo
