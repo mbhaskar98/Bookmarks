@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body style="background-color: black;">
+    <form onsubmit="submitForm(); return false;">
+        <label for="userInput">Enter Something:</label>
+        <input type="text" id="userInput" name="userInput" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function submitForm() {
+            var userInput = document.getElementById('userInput').value;
+            alert('You entered: ' + userInput);
+        }
+    </script>
+</body>
+</html>
